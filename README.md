@@ -1,4 +1,4 @@
-This repository contains a game written with swift. game's name is Family Guy Catch.
+This repository contains a game written with swift. Game's name is Family Guy Catch.
 If you can click on the character you will get the damage or gain that character gave you.
 
 The character is hidden in 0.5 second.
