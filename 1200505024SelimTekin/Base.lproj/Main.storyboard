@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_200505024SelimTekin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Süre:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npV-H4-qMn">
+                                <rect key="frame" x="41" y="53" width="332" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skor:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37Y-f5-mu2">
+                                <rect key="frame" x="41" y="82" width="332" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lois_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="WkV-wK-bj1">
+                                <rect key="frame" x="20" y="111" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Meg_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="BNF-Wa-hWY">
+                                <rect key="frame" x="114" y="111" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Peter_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="pLI-DO-KXI">
+                                <rect key="frame" x="208" y="111" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stewie_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="YA1-Bd-dh6">
+                                <rect key="frame" x="302" y="111" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Peter_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="MHt-23-VhF">
+                                <rect key="frame" x="20" y="281" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stewie_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="PXO-gL-UPq">
+                                <rect key="frame" x="114" y="281" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lois_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="rlB-2x-oIE">
+                                <rect key="frame" x="208" y="281" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Meg_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="QCc-2Z-eQq">
+                                <rect key="frame" x="302" y="281" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Meg_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="atW-s4-AeW">
+                                <rect key="frame" x="20" y="451" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Peter_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="jTY-CT-ubw">
+                                <rect key="frame" x="114" y="451" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lois_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="dJp-9u-gb2">
+                                <rect key="frame" x="208" y="451" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stewie_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="EDJ-0o-94j">
+                                <rect key="frame" x="302" y="451" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stewie_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="B2H-bE-6Wz">
+                                <rect key="frame" x="20" y="621" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lois_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="W05-8n-n2d">
+                                <rect key="frame" x="114" y="621" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Meg_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="O0S-8x-YFE">
+                                <rect key="frame" x="208" y="621" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Peter_Griffin" translatesAutoresizingMaskIntoConstraints="NO" id="6U4-oV-2O8">
+                                <rect key="frame" x="302" y="621" width="94" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="En Yüksek Skor:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUe-qA-E2u">
+                                <rect key="frame" x="41" y="809" width="332" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="enYuksekSkorLabel" destination="PUe-qA-E2u" id="lhW-vr-tlU"/>
+                        <outlet property="lois1" destination="WkV-wK-bj1" id="XdP-Fz-eIJ"/>
+                        <outlet property="lois2" destination="rlB-2x-oIE" id="Dei-9E-eoS"/>
+                        <outlet property="lois3" destination="dJp-9u-gb2" id="R2C-T2-Z6L"/>
+                        <outlet property="lois4" destination="W05-8n-n2d" id="WGH-9M-4i7"/>
+                        <outlet property="meg1" destination="BNF-Wa-hWY" id="Mec-3s-Ivb"/>
+                        <outlet property="meg2" destination="QCc-2Z-eQq" id="P6v-UR-aMi"/>
+                        <outlet property="meg3" destination="atW-s4-AeW" id="7U6-BS-S6G"/>
+                        <outlet property="meg4" destination="O0S-8x-YFE" id="qOT-AS-EqR"/>
+                        <outlet property="peter1" destination="pLI-DO-KXI" id="MRt-my-OV7"/>
+                        <outlet property="peter2" destination="MHt-23-VhF" id="z4w-Bs-DPY"/>
+                        <outlet property="peter3" destination="jTY-CT-ubw" id="0uQ-Sy-TSK"/>
+                        <outlet property="peter4" destination="6U4-oV-2O8" id="qm6-qk-ANG"/>
+                        <outlet property="skorLabel" destination="37Y-f5-mu2" id="RlQ-Dj-AhV"/>
+                        <outlet property="stewie1" destination="YA1-Bd-dh6" id="KxJ-eP-i9t"/>
+                        <outlet property="stewie2" destination="PXO-gL-UPq" id="T1M-Ta-Uuw"/>
+                        <outlet property="stewie3" destination="EDJ-0o-94j" id="mW7-2W-8c4"/>
+                        <outlet property="stewie4" destination="B2H-bE-6Wz" id="r9C-NF-OBa"/>
+                        <outlet property="sureLabel" destination="npV-H4-qMn" id="cCE-SW-9wM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="66.964285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Lois_Griffin" width="163" height="309"/>
+        <image name="Meg_Griffin" width="184" height="274"/>
+        <image name="Peter_Griffin" width="247" height="359"/>
+        <image name="Stewie_Griffin" width="213" height="237"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

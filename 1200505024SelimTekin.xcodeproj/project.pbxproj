@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A78EFFF29BCAECD00C7B898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78EFFE29BCAECD00C7B898 /* AppDelegate.swift */; };
+		7A78F00129BCAECD00C7B898 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78F00029BCAECD00C7B898 /* SceneDelegate.swift */; };
+		7A78F00329BCAECD00C7B898 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78F00229BCAECD00C7B898 /* ViewController.swift */; };
+		7A78F00629BCAECD00C7B898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A78F00429BCAECD00C7B898 /* Main.storyboard */; };
+		7A78F00829BCAED000C7B898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A78F00729BCAED000C7B898 /* Assets.xcassets */; };
+		7A78F00B29BCAED000C7B898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A78F00929BCAED000C7B898 /* LaunchScreen.storyboard */; };
+		7A78F01629BCAED100C7B898 /* _200505024SelimTekinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78F01529BCAED100C7B898 /* _200505024SelimTekinTests.swift */; };
+		7A78F02129BCAED100C7B898 /* _200505024SelimTekinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78F02029BCAED100C7B898 /* _200505024SelimTekinUITests.swift */; };
+		7A78F03529BCB0F000C7B898 /* Stewie_Griffin.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A78F03129BCB0F000C7B898 /* Stewie_Griffin.png */; };
+		7A78F03629BCB0F000C7B898 /* Lois_Griffin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7A78F03229BCB0F000C7B898 /* Lois_Griffin.jpeg */; };
+		7A78F03729BCB0F000C7B898 /* Meg_Griffin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7A78F03329BCB0F000C7B898 /* Meg_Griffin.jpeg */; };
+		7A78F03829BCB0F000C7B898 /* Peter_Griffin.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A78F03429BCB0F000C7B898 /* Peter_Griffin.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A78F01229BCAED100C7B898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A78EFF329BCAECD00C7B898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A78EFFA29BCAECD00C7B898;
+			remoteInfo = 1200505024SelimTekin;
+		};
+		7A78F01D29BCAED100C7B898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A78EFF329BCAECD00C7B898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A78EFFA29BCAECD00C7B898;
+			remoteInfo = 1200505024SelimTekin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A78EFFB29BCAECD00C7B898 /* 1200505024SelimTekin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1200505024SelimTekin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A78EFFE29BCAECD00C7B898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A78F00029BCAECD00C7B898 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A78F00229BCAECD00C7B898 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A78F00529BCAECD00C7B898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A78F00729BCAED000C7B898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A78F00A29BCAED000C7B898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A78F00C29BCAED000C7B898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A78F01129BCAED100C7B898 /* 1200505024SelimTekinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1200505024SelimTekinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A78F01529BCAED100C7B898 /* _200505024SelimTekinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _200505024SelimTekinTests.swift; sourceTree = "<group>"; };
+		7A78F01729BCAED100C7B898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A78F01C29BCAED100C7B898 /* 1200505024SelimTekinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1200505024SelimTekinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A78F02029BCAED100C7B898 /* _200505024SelimTekinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _200505024SelimTekinUITests.swift; sourceTree = "<group>"; };
+		7A78F02229BCAED100C7B898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A78F03129BCB0F000C7B898 /* Stewie_Griffin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stewie_Griffin.png; sourceTree = SOURCE_ROOT; };
+		7A78F03229BCB0F000C7B898 /* Lois_Griffin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lois_Griffin.jpeg; sourceTree = SOURCE_ROOT; };
+		7A78F03329BCB0F000C7B898 /* Meg_Griffin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meg_Griffin.jpeg; sourceTree = SOURCE_ROOT; };
+		7A78F03429BCB0F000C7B898 /* Peter_Griffin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Peter_Griffin.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A78EFF829BCAECD00C7B898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A78F00E29BCAED100C7B898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A78F01929BCAED100C7B898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A78EFF229BCAECD00C7B898 = {
+			isa = PBXGroup;
+			children = (
+				7A78EFFD29BCAECD00C7B898 /* 1200505024SelimTekin */,
+				7A78F01429BCAED100C7B898 /* 1200505024SelimTekinTests */,
+				7A78F01F29BCAED100C7B898 /* 1200505024SelimTekinUITests */,
+				7A78EFFC29BCAECD00C7B898 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A78EFFC29BCAECD00C7B898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A78EFFB29BCAECD00C7B898 /* 1200505024SelimTekin.app */,
+				7A78F01129BCAED100C7B898 /* 1200505024SelimTekinTests.xctest */,
+				7A78F01C29BCAED100C7B898 /* 1200505024SelimTekinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A78EFFD29BCAECD00C7B898 /* 1200505024SelimTekin */ = {
+			isa = PBXGroup;
+			children = (
+				7A78EFFE29BCAECD00C7B898 /* AppDelegate.swift */,
+				7A78F00029BCAECD00C7B898 /* SceneDelegate.swift */,
+				7A78F00229BCAECD00C7B898 /* ViewController.swift */,
+				7A78F00429BCAECD00C7B898 /* Main.storyboard */,
+				7A78F00729BCAED000C7B898 /* Assets.xcassets */,
+				7A78F03229BCB0F000C7B898 /* Lois_Griffin.jpeg */,
+				7A78F03329BCB0F000C7B898 /* Meg_Griffin.jpeg */,
+				7A78F03429BCB0F000C7B898 /* Peter_Griffin.png */,
+				7A78F03129BCB0F000C7B898 /* Stewie_Griffin.png */,
+				7A78F00929BCAED000C7B898 /* LaunchScreen.storyboard */,
+				7A78F00C29BCAED000C7B898 /* Info.plist */,
+			);
+			path = 1200505024SelimTekin;
+			sourceTree = "<group>";
+		};
+		7A78F01429BCAED100C7B898 /* 1200505024SelimTekinTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A78F01529BCAED100C7B898 /* _200505024SelimTekinTests.swift */,
+				7A78F01729BCAED100C7B898 /* Info.plist */,
+			);
+			path = 1200505024SelimTekinTests;
+			sourceTree = "<group>";
+		};
+		7A78F01F29BCAED100C7B898 /* 1200505024SelimTekinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A78F02029BCAED100C7B898 /* _200505024SelimTekinUITests.swift */,
+				7A78F02229BCAED100C7B898 /* Info.plist */,
+			);
+			path = 1200505024SelimTekinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A78EFFA29BCAECD00C7B898 /* 1200505024SelimTekin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A78F02529BCAED100C7B898 /* Build configuration list for PBXNativeTarget "1200505024SelimTekin" */;
+			buildPhases = (
+				7A78EFF729BCAECD00C7B898 /* Sources */,
+				7A78EFF829BCAECD00C7B898 /* Frameworks */,
+				7A78EFF929BCAECD00C7B898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 1200505024SelimTekin;
+			productName = 1200505024SelimTekin;
+			productReference = 7A78EFFB29BCAECD00C7B898 /* 1200505024SelimTekin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A78F01029BCAED100C7B898 /* 1200505024SelimTekinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A78F02829BCAED100C7B898 /* Build configuration list for PBXNativeTarget "1200505024SelimTekinTests" */;
+			buildPhases = (
+				7A78F00D29BCAED100C7B898 /* Sources */,
+				7A78F00E29BCAED100C7B898 /* Frameworks */,
+				7A78F00F29BCAED100C7B898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A78F01329BCAED100C7B898 /* PBXTargetDependency */,
+			);
+			name = 1200505024SelimTekinTests;
+			productName = 1200505024SelimTekinTests;
+			productReference = 7A78F01129BCAED100C7B898 /* 1200505024SelimTekinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A78F01B29BCAED100C7B898 /* 1200505024SelimTekinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A78F02B29BCAED100C7B898 /* Build configuration list for PBXNativeTarget "1200505024SelimTekinUITests" */;
+			buildPhases = (
+				7A78F01829BCAED100C7B898 /* Sources */,
+				7A78F01929BCAED100C7B898 /* Frameworks */,
+				7A78F01A29BCAED100C7B898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A78F01E29BCAED100C7B898 /* PBXTargetDependency */,
+			);
+			name = 1200505024SelimTekinUITests;
+			productName = 1200505024SelimTekinUITests;
+			productReference = 7A78F01C29BCAED100C7B898 /* 1200505024SelimTekinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A78EFF329BCAECD00C7B898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					7A78EFFA29BCAECD00C7B898 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					7A78F01029BCAED100C7B898 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 7A78EFFA29BCAECD00C7B898;
+					};
+					7A78F01B29BCAED100C7B898 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 7A78EFFA29BCAECD00C7B898;
+					};
+				};
+			};
+			buildConfigurationList = 7A78EFF629BCAECD00C7B898 /* Build configuration list for PBXProject "1200505024SelimTekin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A78EFF229BCAECD00C7B898;
+			productRefGroup = 7A78EFFC29BCAECD00C7B898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A78EFFA29BCAECD00C7B898 /* 1200505024SelimTekin */,
+				7A78F01029BCAED100C7B898 /* 1200505024SelimTekinTests */,
+				7A78F01B29BCAED100C7B898 /* 1200505024SelimTekinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A78EFF929BCAECD00C7B898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A78F03829BCB0F000C7B898 /* Peter_Griffin.png in Resources */,
+				7A78F00B29BCAED000C7B898 /* LaunchScreen.storyboard in Resources */,
+				7A78F03629BCB0F000C7B898 /* Lois_Griffin.jpeg in Resources */,
+				7A78F00829BCAED000C7B898 /* Assets.xcassets in Resources */,
+				7A78F03729BCB0F000C7B898 /* Meg_Griffin.jpeg in Resources */,
+				7A78F03529BCB0F000C7B898 /* Stewie_Griffin.png in Resources */,
+				7A78F00629BCAECD00C7B898 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A78F00F29BCAED100C7B898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A78F01A29BCAED100C7B898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A78EFF729BCAECD00C7B898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A78F00329BCAECD00C7B898 /* ViewController.swift in Sources */,
+				7A78EFFF29BCAECD00C7B898 /* AppDelegate.swift in Sources */,
+				7A78F00129BCAECD00C7B898 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A78F00D29BCAED100C7B898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A78F01629BCAED100C7B898 /* _200505024SelimTekinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A78F01829BCAED100C7B898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A78F02129BCAED100C7B898 /* _200505024SelimTekinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A78F01329BCAED100C7B898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A78EFFA29BCAECD00C7B898 /* 1200505024SelimTekin */;
+			targetProxy = 7A78F01229BCAED100C7B898 /* PBXContainerItemProxy */;
+		};
+		7A78F01E29BCAED100C7B898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A78EFFA29BCAECD00C7B898 /* 1200505024SelimTekin */;
+			targetProxy = 7A78F01D29BCAED100C7B898 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A78F00429BCAECD00C7B898 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A78F00529BCAECD00C7B898 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A78F00929BCAED000C7B898 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A78F00A29BCAED000C7B898 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A78F02329BCAED100C7B898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A78F02429BCAED100C7B898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A78F02629BCAED100C7B898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H54X389YC4;
+				INFOPLIST_FILE = 1200505024SelimTekin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sigfest.-200505024SelimTekin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A78F02729BCAED100C7B898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H54X389YC4;
+				INFOPLIST_FILE = 1200505024SelimTekin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sigfest.-200505024SelimTekin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A78F02929BCAED100C7B898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H54X389YC4;
+				INFOPLIST_FILE = 1200505024SelimTekinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sigfest.-200505024SelimTekinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1200505024SelimTekin.app/1200505024SelimTekin";
+			};
+			name = Debug;
+		};
+		7A78F02A29BCAED100C7B898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H54X389YC4;
+				INFOPLIST_FILE = 1200505024SelimTekinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sigfest.-200505024SelimTekinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1200505024SelimTekin.app/1200505024SelimTekin";
+			};
+			name = Release;
+		};
+		7A78F02C29BCAED100C7B898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H54X389YC4;
+				INFOPLIST_FILE = 1200505024SelimTekinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sigfest.-200505024SelimTekinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 1200505024SelimTekin;
+			};
+			name = Debug;
+		};
+		7A78F02D29BCAED100C7B898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H54X389YC4;
+				INFOPLIST_FILE = 1200505024SelimTekinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sigfest.-200505024SelimTekinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 1200505024SelimTekin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A78EFF629BCAECD00C7B898 /* Build configuration list for PBXProject "1200505024SelimTekin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A78F02329BCAED100C7B898 /* Debug */,
+				7A78F02429BCAED100C7B898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A78F02529BCAED100C7B898 /* Build configuration list for PBXNativeTarget "1200505024SelimTekin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A78F02629BCAED100C7B898 /* Debug */,
+				7A78F02729BCAED100C7B898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A78F02829BCAED100C7B898 /* Build configuration list for PBXNativeTarget "1200505024SelimTekinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A78F02929BCAED100C7B898 /* Debug */,
+				7A78F02A29BCAED100C7B898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A78F02B29BCAED100C7B898 /* Build configuration list for PBXNativeTarget "1200505024SelimTekinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A78F02C29BCAED100C7B898 /* Debug */,
+				7A78F02D29BCAED100C7B898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A78EFF329BCAECD00C7B898 /* Project object */;
+}
